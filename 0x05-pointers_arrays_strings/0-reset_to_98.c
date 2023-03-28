@@ -1,11 +1,11 @@
-#inclde "main.h"
+#include "main.h"
 /**
- * reset_to_98 - changes the value to 98
- * @n: value to be replaced
+ * reset_to_98 - changes the value of n to 98
+ * @n: value o be replaced
  * Return: 0
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
